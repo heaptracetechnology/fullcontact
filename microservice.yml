@@ -13,12 +13,15 @@ actions:
       email:
         type: string
         in: requestBody
+        help: Contact email address.
       twitter:
         type: string
         in: requestBody
+        help: Contact Twitter ID.
       phone:
         type: string
         in: requestBody
+        help: Contact phone number.
     http:
       path: /person
       method: post
